@@ -1,0 +1,31 @@
+.dateGrid{
+    display:grid;
+    grid-template-columns: 100px 30px 30px;
+    grid-template-rows: 20px 20px;
+    background-color:white;
+    height:auto;
+}
+
+.dateSub{
+    display:grid;
+    background-color: white;
+    width: auto;
+    
+}
+
+#whichDayLoc{
+    display:grid;
+    grid-row: span 2;
+    font-size:40px;
+    justify-content: center;
+}
+
+#yearLoc{
+    display:grid;
+    grid-column: span 2;
+    font-size:16px;
+    justify-content: left;
+    transform:scale(1.5,1);
+    position:relative;
+    left:13px;
+}

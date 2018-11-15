@@ -1,0 +1,79 @@
+body{
+    width: 100%;
+}
+
+.mainLoc{
+    display: grid;
+    grid-template-rows: repeat(3,auto);
+    width: 300px;
+    height: auto;
+    grid-gap: 10px;
+    background-color:white;
+    padding:10px;
+}
+
+.gridOne{
+    display :grid;
+    background-color:white;
+    width: 300px;
+}
+
+#todoInput{
+    background-color: transparent;
+    outline:none;
+    border-top:none;
+    border-left:none;
+    border-right:none;
+    border-bottom: solid black 1px;
+    padding: 3px 10px;
+}
+
+.todoGrid{
+    display: grid;
+    grid-template-rows: auto;
+    grid-gap: 10px;
+    background-color:white;
+}
+
+.textButton{
+    display:grid;
+    grid-template-columns: 240px 60px;
+    width: auto;
+    height: auto;
+    grid-gap:3px;
+}
+.todoContent{
+    display:grid;
+    align-items: center;
+    /* padding-left:10px; */
+    width: auto;
+    height: auto;
+    /* background-color: blue; */
+}
+
+.deleteTodo{
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    color: rgb(124, 255, 255);
+}
+
+.nothingTodo{
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden; 
+}
+
+p{
+    padding-left:10px;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.grey{
+    color:grey;
+}
