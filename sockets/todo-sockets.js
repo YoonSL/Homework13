@@ -5,9 +5,6 @@ module.exports = function(io){
         socket.on('new-change',function(){
             io.emit('emit-change');
         })
-        socket.on('new-color',function(){
-            io.emit('emit-color');
-        })
         console.log('connected');
     })
 }
